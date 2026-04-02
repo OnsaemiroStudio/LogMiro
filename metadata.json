@@ -1,0 +1,5 @@
+{
+  "name": "LogLens AI",
+  "description": "Intelligent log analysis and bug detection powered by Gemini AI.",
+  "requestFramePermissions": []
+}
