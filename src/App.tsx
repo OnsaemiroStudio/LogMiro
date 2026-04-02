@@ -229,7 +229,7 @@ export default function App() {
             </div>
             <div>
               <h1 className="text-2xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
-                LogLens
+                LogMiro
               </h1>
               <p className="text-sm text-gray-500">Intelligent Log Analysis</p>
             </div>
