@@ -579,6 +579,30 @@ export default function App() {
             </div>
           </aside>
         </main>
+
+        {/* Footer */}
+        <footer className="mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4 text-gray-500">
+          <div className="flex items-center gap-2 text-sm">
+            <span className="font-medium text-gray-400">OnsaemiroStudio</span>
+            <span className="text-gray-700">|</span>
+            <span className="text-xs">온새미로 스튜디오</span>
+          </div>
+          
+          <div className="flex items-center gap-6">
+            <a 
+              href="https://github.com/OnsaemiroStudio/LogMiro" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-xs hover:text-indigo-400 transition-colors group"
+            >
+              <Github className="w-4 h-4 group-hover:scale-110 transition-transform" />
+              GitHub
+            </a>
+            <p className="text-[10px] uppercase tracking-widest opacity-50">
+              © {new Date().getFullYear()} LogMiro
+            </p>
+          </div>
+        </footer>
       </div>
 
       <style>{`
