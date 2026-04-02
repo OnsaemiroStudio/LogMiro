@@ -25,7 +25,8 @@ import {
   Lock,
   Unlock,
   ShieldCheck,
-  ShieldAlert
+  ShieldAlert,
+  Github
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { cn } from './lib/utils';
